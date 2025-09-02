@@ -1,5 +1,5 @@
 ## Description  
-This program implements a simple blockchain model using RSA 2048-bit key pairs for digital signatures and SHA256 hashing for data integrity. It performs three chaining steps where messages are concatenated with the public key, hashed, signed with the private key, and the signatures are then rehashed to create a cryptographic chain. The program outputs all intermediate hashes and signatures, demonstrating the step-by-step process of blockchain chaining and authentication.
+This program implements a blockchain model using RSA 2048-bit key pairs for digital signatures and SHA256 hashing for data integrity. It performs three chaining steps where messages are concatenated with the public key, hashed, signed with the private key, and the signatures are then rehashed to create a cryptographic chain. The program outputs all intermediate hashes and signatures, demonstrating the step-by-step process of blockchain chaining and authentication.
 
 ## Prerequisites  
 - Node.js installed  
